@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'SF Pro';
+    font-family: 'SF Pro',Arial, Helvetica, sans-serif;
     src: local('fonts/SF-Pro.ttf');
 }
 
@@ -88,18 +88,17 @@ footer p {
 }
 
 .doosje {
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .illustratiemini {
-    float: right;
     height: 10em;
     width: auto;
     padding: 0;
     padding-right: 2em;
     margin: 0.5em;
+    float: right;
 }
 
 h1 {
@@ -118,4 +117,8 @@ h2  {
 footer a {
     text-decoration: none;
     color: #FDFEFF;
+}
+
+ol {
+    padding-right: 2em;
 }
